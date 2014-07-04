@@ -3,6 +3,10 @@ class Owner
   def name
     name = 'Foobar Kadigan'
   end
+  
+  def address
+    address = '2525 Nostrand Ave'
+  end
 
   def birthdate
     birthdate = Date.new(1990, 12, 22)
