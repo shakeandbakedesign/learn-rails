@@ -1,0 +1,16 @@
+####Thes export code below create enviroment varaiables
+### add them to .bashrc and then   $ exec bash    at the command line
+### command line   $ env   shows list of enviroment varaiables executed
+
+export GMAIL_USERNAME="jgodman69@gmail.com"
+export GMAIL_PASSWORD="fatboy44"
+export MAILCHIMP_API_KEY="281465ee516e88f04e80d0fd862a4fd1-us1"
+export MAILCHIMP_LIST_ID="a559333eeb"
+export OWNER_EMAIL="shasteman@mac.com"
+export DOMAIN_NAME="example.com"
+
+export SECRET_KEY_BASE="57706d3d83a93806708bf9cbdac611f30212c8aa91d451b4d3eeff257350cbb46738be106c7a557097b50625edad6dcb5028e24a6bf93586174f6d7b6ea7adf2"
+
+#### Add the below .bash_profile to connect it all together, 
+#### $ exec bash    at the command line in project directory     tamengodmansmbp:learn-rails EvolutionUSA$  exec bash
+source ~/.bashrc
